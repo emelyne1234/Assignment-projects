@@ -61,7 +61,7 @@ function getUserInput(question) {
     });
 }
 
-// Example usage:
+
 async function startQuiz() {
     const title = await getUserInput("Enter task title: ");
     const description = await getUserInput("Enter task description: ");
